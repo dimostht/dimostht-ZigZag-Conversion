@@ -15,7 +15,7 @@ class Solution {
        }
         int i = 0;
         int pos1 = 0;
-        int pos2 = numRows -2;
+        int pos2 = numRows -2; 
         while (start != c.length){
             if (i % (numRows-1) == 0){
                 table[i][pos1] = c[start];
